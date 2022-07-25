@@ -9,7 +9,7 @@ btn.addEventListener('click', () => {
     fetch('https://api.imgflip.com/get_memes')
         .then(response => response.json())
         .then(data => {
-            let random = Math.floor(Math.random() * (100 - 0) + 0)
+            const random = Math.floor(Math.random() * (100 - 0) + 0)
             image.setAttribute('src', data.data.memes[random].url)
         })
         .catch(error => console.error(error))
