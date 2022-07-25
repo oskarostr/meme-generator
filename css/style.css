@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .inputs input {
+  margin: 0 5rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.card .image img {
+  height: 500px;
+  margin: 2rem 0;
+}
+
+.card .image .text .caption {
+  position: absolute;
+  width: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  font-family: Impact, sans-serif;
+  font-size: 48px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+
+.card .image .text .top {
+  top: 250px;
+}
+
+.card .image .text .bottom {
+  bottom: 250px;
+}
+
+.card button {
+  padding: .5rem 2rem;
+  background: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.card button:hover {
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
